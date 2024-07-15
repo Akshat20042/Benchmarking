@@ -1,0 +1,144 @@
+^D:\DSA\BENCHMARK\BUILD\THIRD_PARTY\GOOGLETEST\CMAKEFILES\378366225BEE204BDBFC2F1472A02874\GOOGLETEST-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/Dsa/benchmark/build/third_party/googletest/tmp/googletest-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Dsa/benchmark/build/third_party/googletest/src/googletest-stamp/Debug/googletest-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DSA\BENCHMARK\BUILD\THIRD_PARTY\GOOGLETEST\CMAKEFILES\378366225BEE204BDBFC2F1472A02874\GOOGLETEST-DOWNLOAD.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Dsa/benchmark/build/third_party/googletest/src/googletest-stamp/Debug/googletest-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DSA\BENCHMARK\BUILD\THIRD_PARTY\GOOGLETEST\CMAKEFILES\378366225BEE204BDBFC2F1472A02874\GOOGLETEST-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Dsa/benchmark/build/third_party/googletest/src/googletest-stamp/Debug/googletest-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DSA\BENCHMARK\BUILD\THIRD_PARTY\GOOGLETEST\CMAKEFILES\378366225BEE204BDBFC2F1472A02874\GOOGLETEST-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Dsa/benchmark/build/third_party/googletest/src/googletest-stamp/Debug/googletest-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DSA\BENCHMARK\BUILD\THIRD_PARTY\GOOGLETEST\CMAKEFILES\378366225BEE204BDBFC2F1472A02874\GOOGLETEST-CONFIGURE.RULE
+setlocal
+cd D:\Dsa\benchmark\build\third_party\googletest\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Dsa/benchmark/build/third_party/googletest/src/googletest-stamp/Debug/googletest-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DSA\BENCHMARK\BUILD\THIRD_PARTY\GOOGLETEST\CMAKEFILES\378366225BEE204BDBFC2F1472A02874\GOOGLETEST-BUILD.RULE
+setlocal
+cd D:\Dsa\benchmark\build\third_party\googletest\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Dsa/benchmark/build/third_party/googletest/src/googletest-stamp/Debug/googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DSA\BENCHMARK\BUILD\THIRD_PARTY\GOOGLETEST\CMAKEFILES\378366225BEE204BDBFC2F1472A02874\GOOGLETEST-INSTALL.RULE
+setlocal
+cd D:\Dsa\benchmark\build\third_party\googletest\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Dsa/benchmark/build/third_party/googletest/src/googletest-stamp/Debug/googletest-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DSA\BENCHMARK\BUILD\THIRD_PARTY\GOOGLETEST\CMAKEFILES\378366225BEE204BDBFC2F1472A02874\GOOGLETEST-TEST.RULE
+setlocal
+cd D:\Dsa\benchmark\build\third_party\googletest\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Dsa/benchmark/build/third_party/googletest/src/googletest-stamp/Debug/googletest-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DSA\BENCHMARK\BUILD\THIRD_PARTY\GOOGLETEST\CMAKEFILES\F50D98E78F1AEFB1257AAF836FD04F82\GOOGLETEST-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Dsa/benchmark/build/third_party/googletest/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Dsa/benchmark/build/third_party/googletest/CMakeFiles/Debug/googletest-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Dsa/benchmark/build/third_party/googletest/src/googletest-stamp/Debug/googletest-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DSA\BENCHMARK\BUILD\THIRD_PARTY\GOOGLETEST\CMAKEFILES\3BB222950D04F1D4DA4495DFB27D4258\GOOGLETEST.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DSA\BENCHMARK\BUILD\THIRD_PARTY\GOOGLETEST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Dsa/benchmark/build/third_party/googletest -BD:/Dsa/benchmark/build/third_party/googletest --check-stamp-file D:/Dsa/benchmark/build/third_party/googletest/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

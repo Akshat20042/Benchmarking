@@ -1,0 +1,10 @@
+^D:\DSA\BENCHMARK\BUILD\THIRD_PARTY\GOOGLETEST\CMAKEFILES\3BB222950D04F1D4DA4495DFB27D4258\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Dsa/benchmark/build/third_party/googletest -BD:/Dsa/benchmark/build/third_party/googletest --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Dsa/benchmark/build/third_party/googletest/googletest-download.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

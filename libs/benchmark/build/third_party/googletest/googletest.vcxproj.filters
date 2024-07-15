@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Dsa\benchmark\build\third_party\googletest\CMakeFiles\378366225bee204bdbfc2f1472a02874\googletest-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Dsa\benchmark\build\third_party\googletest\CMakeFiles\378366225bee204bdbfc2f1472a02874\googletest-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Dsa\benchmark\build\third_party\googletest\CMakeFiles\378366225bee204bdbfc2f1472a02874\googletest-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Dsa\benchmark\build\third_party\googletest\CMakeFiles\378366225bee204bdbfc2f1472a02874\googletest-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Dsa\benchmark\build\third_party\googletest\CMakeFiles\378366225bee204bdbfc2f1472a02874\googletest-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Dsa\benchmark\build\third_party\googletest\CMakeFiles\378366225bee204bdbfc2f1472a02874\googletest-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Dsa\benchmark\build\third_party\googletest\CMakeFiles\378366225bee204bdbfc2f1472a02874\googletest-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Dsa\benchmark\build\third_party\googletest\CMakeFiles\378366225bee204bdbfc2f1472a02874\googletest-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Dsa\benchmark\build\third_party\googletest\CMakeFiles\f50d98e78f1aefb1257aaf836fd04f82\googletest-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Dsa\benchmark\build\third_party\googletest\CMakeFiles\3bb222950d04f1d4da4495dfb27d4258\googletest.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Dsa\benchmark\build\third_party\googletest\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Dsa\benchmark\build\third_party\googletest\CMakeFiles\googletest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{331D5366-E489-398B-8156-0023FEF61A52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

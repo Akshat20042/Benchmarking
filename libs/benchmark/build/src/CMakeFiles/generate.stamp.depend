@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.30/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake
+D:/Dsa/benchmark/cmake/Config.cmake.in
+D:/Dsa/benchmark/cmake/benchmark.pc.in
+D:/Dsa/benchmark/cmake/benchmark_main.pc.in
+D:/Dsa/benchmark/src/CMakeLists.txt
