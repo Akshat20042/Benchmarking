@@ -1,0 +1,69 @@
+#Overview
+
+The goal of this project was to compare the performance of standard (sequential) matrix multiplication against threaded (parallelized) matrix multiplication using different input sizes (N). The performance metric used for comparison is the ratio of CPU time to no-operation (noop) time, which reflects how much faster or slower the threaded implementation is compared to the standard implementation.
+
+#Methodology
+
+We implemented two versions of matrix multiplication:
+
+Standard: Sequential implementation without any threading or parallelization.
+Threaded: Parallel implementation using threads to divide the workload across multiple cores.
+For benchmarking, we used the following input sizes (N):
+
+N=16
+N=32
+N=64
+N=128
+N=256
+
+Each implementation was tested multiple times, and the CPU time was recorded. No-operation time (noop time) refers to the theoretical minimum time it would take to perform the operation without any overhead.
+
+#Results
+
+The results of the benchmarking experiments are summarized below:
+
+N	Standard CPU Time		Threaded CPU 		Time Ratio (Standard / Threaded)	
+16	25725				    132561			    0.194	
+32	199700				    134013			    1.490	
+64	1505587				    151873			    9.902	
+128	10879067				202411			    53.731	
+256	48162088				203234			    237.024
+	
+Explanation:
+Ratio (Standard / Threaded): This column shows how many times slower the threaded implementation is compared to the standard implementation. It's calculated as Standard CPU Time / Threaded CPU Time.
+
+Threading Speedup Factor: This column indicates how many times faster threading is compared to the standard CPU time. It's calculated as 1 / (Ratio (Standard / Threaded)).
+
+Analysis:
+For N=16, the threaded implementation is approximately 0.194 times faster than the standard implementation.
+For N=32, the threaded implementation is about 1.49 times faster than the standard implementation.
+For N=64, N=128, and N=256, threading shows significant speedup factors of 9.90, 53.73, and 237.02 respectively, indicating substantial performance gains as the matrix size increases.
+
+#Analysis
+
+1.Performance Comparison: The ratio of CPU time between standard and threaded implementations shows how many times faster (or slower) the threaded implementation is compared to the standard one.
+
+Trends Across Input Sizes:
+
+2. 
+a) For smaller matrices (N=16 and N=32), the threaded implementation shows significantly higher CPU time ratios compared to the standard implementation, indicating overhead from thread management.
+
+b) As the matrix size increases (N=64, N=128, N=256), the threaded implementation starts to show better performance, with some cases nearing or exceeding the performance of the standard implementation.
+
+3.Thread Overhead: The overhead of thread creation and synchronization becomes more apparent for smaller matrices, impacting the threaded implementation's performance negatively compared to the standard one.
+
+#Conclusion
+
+1. Optimal Use Case: Threaded matrix multiplication using multiple cores shows potential performance benefits as the matrix size increases, leveraging parallelism to reduce computation time.
+
+2. Considerations: For smaller matrices, the overhead of threading may outweigh the benefits, leading to slower execution times compared to a straightforward sequential approach.
+
+#Recommendations
+
+Based on the results:
+
+Use Threading Wisely: Apply threaded matrix multiplication for larger matrices where the benefits of parallel processing outweigh the overhead.
+
+Benchmark and Tune: Continuously benchmark and adjust thread settings (e.g., number of threads, workload distribution) to maximize performance across different matrix sizes and hardware configurations.
+
+By understanding these results, future optimizations and decisions regarding the use of threading in matrix operations can be made more effectively, ensuring optimal performance across varying computational workloads.
